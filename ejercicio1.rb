@@ -19,5 +19,5 @@ end
 
 any = Anything.new
 any.foo
-any.bar
 any.show_a
+any.bar

@@ -11,3 +11,5 @@ class Store
 end
 store = Store.new('Tienda 1')
 puts store.name
+store2 = Store.new('Tienda 2')
+puts store2.name
