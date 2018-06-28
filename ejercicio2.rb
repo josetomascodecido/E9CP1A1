@@ -3,7 +3,7 @@
 #
 # ~~~ruby
 class Car
-  attr_accessor :model, :year
+  attr_reader :model, :year
   def initialize(model, year)
     @model = model
     @year = year

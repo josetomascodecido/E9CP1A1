@@ -4,7 +4,7 @@
 #
 # ~~~ruby
 class Morseable
-  attr_accessor :number
+  attr_reader :number
   def initialize(number)
     @number = number
   end
@@ -29,7 +29,7 @@ class Morseable
   end
 end
 
-m = Morseable.new(4)
+m = Morseable.new(8)
 print m.to_morse
 
 # Se pide:
